@@ -56,7 +56,7 @@ h1 {
     font-size: 18px;
     font-weight: 300;
     text-align: center;
-    letter-spacing: 1.5px;
+    letter-spacing: .3px;
     border-bottom: 8px solid;
     text-align: left;
     padding-bottom: 20px;
@@ -204,7 +204,7 @@ h3.recent  {
 
 .workimg{
     width: 200px;
-    height: auto;
+    height: 400px;
     float: left;
     display: inline;
     margin-left: 20px;
@@ -221,7 +221,12 @@ h3.recent  {
     font-weight: 100;
 }
 
-
+.resume {
+    width: 40%;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
 
 
 /* Mobile first queries */
