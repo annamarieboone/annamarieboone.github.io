@@ -190,6 +190,13 @@ h3.recent  {
     margin-bottom: 40px;
 }
 
+.about {
+    width: 50%;
+    height: auto;
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
 .imgborder {
     border-bottom: 5px solid black;
     padding-bottom: 30px;
@@ -292,6 +299,11 @@ iframe {
 
 .work {
     width: 50%;
+    height: auto;
+}
+
+.about {
+    width: 75%;
     height: auto;
 }
 
