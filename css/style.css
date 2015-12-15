@@ -59,7 +59,7 @@ h5 {
     font-size: 30px;
     font-weight: 800;
     margin-left: 80px;
-    border-bottom: 5px solid black;
+    border-bottom: 3px solid black;
     border-bottom-width: 100%;
 }
 
@@ -114,7 +114,7 @@ img {
 a.menu {
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     display: block;
     margin-bottom: 10px;
