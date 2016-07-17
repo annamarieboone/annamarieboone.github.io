@@ -42,9 +42,8 @@ p {
 }
 
 .link:hover {
-	text-decoration: none;
+	text-decoration: underline;
 	color: black;
-
 }
 
 /*navigation*/
