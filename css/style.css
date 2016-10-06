@@ -52,7 +52,7 @@ p {
 	 margin-bottom: 50px;
 	 color: black;
 	 background-color: #fff;
-	 text-align: center;
+	 text-align: left;
 
 	}
 
@@ -61,7 +61,7 @@ p {
 	  color: white;
 	  font-weight: bold;
 	  padding-left: 1em;
-	  text-align: center;
+	  text-align: left;
 
 	}
 
@@ -72,13 +72,13 @@ p {
 
 	nav{
 		margin-bottom: 500px;
-		text-align: center;
+		text-align: left;
 	}
 	
 	
 	#bs-example-navbar-collapse-1 ul{
 		font-family: 'lato', serif;
-		text-align: center;
+		text-align: left;
 		margin-top: 0 auto;
 	}
 
@@ -87,7 +87,7 @@ p {
 	}
 
 	ul.navbar-nav li{
-		display: inline-block;
+		display: inline;
 		text-align: center;
 	}
 
@@ -120,16 +120,17 @@ p {
 .workimg {
 	width: 100%;
 	height: auto;
-	border: .5px black solid;
+	border: 1px #CDCDCD solid;
 	margin-bottom: 1em;
+	padding: 5px;
 }
 
 
 
 .header {
-	width: 85%;
+	width: 90%;
 	height: auto;
-	margin-top: 10em;
+	margin-top: 14em;
 	margin-bottom: 3em;
 }
 
@@ -141,7 +142,7 @@ p {
 }
 
 .menuimg {
-	width: 40px; 
+	width: 35px; 
 	height: auto;
 	padding-right: 10px;
 	margin-top: none;
@@ -153,6 +154,27 @@ p {
 
 iframe {
 	margin-bottom: 2em;
+}
+
+.smmarg {
+	margin-top: 1em;
+}
+
+li a {
+	color: black;
+}
+
+.left {
+	padding-left: .8em;
+	padding-top: .7em;
+	font-family: 'Source Sans Pro';
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.left:hover {
+	text-decoration: underline;
+	font-weight: 600;
 }
 
 /* Medium devices (desktops, 960px and up) */
