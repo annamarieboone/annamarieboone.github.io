@@ -1,202 +1,118 @@
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,600,900);
 
-img {
-	width: 100%;
-	margin-top: 1em;
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: "Source Sans Pro";
 }
 
-.fill {
-	margin-bottom: 9em;
+.nav {
+	position: fixed;
+	top: 40px;
+	left: 87%;
 }
 
-.intro {
-	font-family: 'Source Sans Pro';
+.nav span {
+	display: block;
+	font-size: 20px;
+	background-color: #FDEDEC;
+	padding: 5px;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+	padding-left: 5px;
+	text-align: center;
+	line-height: 1.5;
+	margin-bottom: 5px;
+}
+
+.nav a {
+	color: black;
+	background-color: none;
+	border-bottom: none;
+}
+
+.nav a:hover {
+	color: #999;
+}
+
+svg {
+	width: 20px;
+	height: auto;
+	padding-left: 3px;
+}
+
+main {
+	width: 100%; 
+	background-color: #FDEDEC;
+	height: 430px;
+	margin-top: 0;
+}
+
+section.intro-type p {	
+	width: 600px;
+	margin: 0 auto;
+	font-size: 2.5em;
 	font-weight: 300;
-	font-size: 30px;
-	margin-bottom: 2em;
+	padding-top: 300px;
 }
 
+section {
+	width: 600px;
+	margin: 0 auto;
+	margin-bottom: 30px;
+}
 
-.goose {
+a {
+	color: black;
+	text-decoration: none;
+	border-bottom: 3px solid #FDEDEC;
+	padding-bottom: 0px;
+	background-color: white;
+}
+
+a:hover {
+	background-color: #FDEDEC;
+	transition: ease-in-out 0.5s;
+}
+
+h3 {
+	font-size: 1.4em;
+	font-weight: 300;
+	line-height: 1.4;
+}
+
+img {
+	width: 120%;
+	height: auto;
+	margin-left: -10%;
+}
+
+.work {
+	margin-bottom: 90px;
+}
+
+h2 {
+	font-weight: 300;
+	font-size: 2em;
 	margin-top: 100px;
 }
 
-.bold {
-	font-weight: 900;
+h5 {
+	font-weight: 300;
+	font-size: 1.4em;
+	margin-top: 20px;
+	margin-bottom: 5px;
 }
 
 p {
-	font-size: 22px;
-	font-family: 'Source Sans Pro';
+	font-size: 1.2em;
 	font-weight: 300;
-	margin-bottom: 1em;
+	line-height: 1.2;
 }
 
-.show-mobile {
-	display: block;
+.skills {
+	font-style: italic;
+	font-size: 1em;
+	margin-bottom: 20px;
 }
-
-.show-desktop {
-	display: none;
-}
-
-.link {
-	text-decoration: none;
-	color: black;
-	font-weight: 600;
-}
-
-.link:hover {
-	text-decoration: underline;
-	color: black;
-}
-
-/*navigation*/
-	/*Don't change anything here unless you run into problems with spacing on section links*/
-	.navbar {
-	 margin-bottom: 50px;
-	 color: black;
-	 background-color: #fff;
-	 text-align: left;
-
-	}
-
-	.navbar-brand {
-	  font-size: 24px;
-	  color: white;
-	  font-weight: bold;
-	  padding-left: 1em;
-	  text-align: left;
-
-	}
-
-	.navbar-headline {
-		text-align: center;
-	}
-
-
-	nav{
-		margin-bottom: 500px;
-		text-align: left;
-	}
-	
-	
-	#bs-example-navbar-collapse-1 ul{
-		font-family: 'lato', serif;
-		text-align: left;
-		margin-top: 0 auto;
-	}
-
-	ul.navbar-nav{
-		text-align: center;
-	}
-
-	ul.navbar-nav li{
-		display: inline;
-		text-align: center;
-	}
-
-	.navbar-headline-mobile {
-		font-family: 'lato', serif;
-		text-decoration: none;
-		text-align: center;
-		margin-left: -3em;
-		width: 100%;
-		line-height: 50px;
-	}
-
-	.nav-headline{
-		text-align: center;
-		font-size: 1.5em;
-		line-height: 50px;
-
-
-	}
-
-	#bs-example-navbar-collapse-1 li .nav-headline{
-		font-family: 'lato', serif;
-		text-decoration: none;
-		text-align: center;
-		width: 100%;
-		line-height: 50px;
-
-	}
-
-.workimg {
-	width: 100%;
-	height: auto;
-	border: 1px #CDCDCD solid;
-	margin-bottom: 1em;
-	padding: 5px;
-}
-
-
-
-.header {
-	width: 90%;
-	height: auto;
-	margin-top: 14em;
-	margin-bottom: 3em;
-}
-
-.headermobile {
-	width: 100%;
-	height: auto;
-	margin-top: 6em;
-	margin-bottom: 3em;
-}
-
-.menuimg {
-	width: 35px; 
-	height: auto;
-	padding-right: 10px;
-	margin-top: none;
-}
-
-.caption {
-	font-size: 16px;
-}
-
-iframe {
-	margin-bottom: 2em;
-}
-
-.smmarg {
-	margin-top: 1em;
-}
-
-li a {
-	color: black;
-}
-
-.left {
-	padding-left: .8em;
-	padding-top: .7em;
-	font-family: 'Source Sans Pro';
-	font-weight: 300;
-	font-size: 18px;
-}
-
-.left:hover {
-	text-decoration: underline;
-	font-weight: 600;
-}
-
-/* Medium devices (desktops, 960px and up) */
-@media (min-width:600px) { 
-/*navbar*/
-	.navbar-headline-mobile {
-		display: none;
-	}
-.show-mobile {
-	display: none;
-}
-
-.show-desktop {
-	display: block;
-}
-
-
-
-}
-/*Intro and header */
