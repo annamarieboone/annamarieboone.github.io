@@ -118,3 +118,43 @@ p {
 	font-size: 1em;
 	margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+	main {
+		width: 100%;
+		height: 500px;
+	}
+
+	section {
+		width: 90%;
+	}
+
+	section.intro-type p {	
+		width: 100%;
+		margin: 0 auto;
+		font-size: 2.3em;
+		font-weight: 300;
+		padding-top: 280px;
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+		margin-left: 0px;
+	}
+
+	.nav {
+/*		position: fixed;
+		top: 20px;*/
+		left: 7%;
+		z-index: 1;
+	}
+
+	.nav span {
+		display: inline-block;
+		border: 1px solid;
+	}
+
+	h3 {
+		font-size: 1.2em;
+	}
