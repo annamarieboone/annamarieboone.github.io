@@ -150,6 +150,10 @@ p {
 		z-index: 1;
 	}
 
+	.nav a {
+		background-color: none;
+	}
+
 	.nav span {
 		display: inline-block;
 		border: 1px solid;
