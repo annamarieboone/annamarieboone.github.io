@@ -180,24 +180,15 @@ p {
 	}
 
 	.nav {
-		left: 7%;
 		z-index: 1;
+	}
+
+	.nav div {
+		width: 100%;
 	}
 
 	.nav span {
 		display: inline-block;
-		border-radius: 0px;
-		margin-right: -5px;
-	}
-
-	.nav #first {
-		border-top-left-radius: 50%;
-		border-bottom-left-radius: 50%;
-	}
-
-	.nav #last {
-		border-top-right-radius: 50%;
-		border-bottom-right-radius: 50%;
 	}
 
 	h3 {
