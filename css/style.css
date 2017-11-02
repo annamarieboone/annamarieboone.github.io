@@ -4,28 +4,39 @@ html, body {
 	margin: 0;
 	padding: 0;
 	font-family: "Source Sans Pro";
+	background-color: #FFF9F8;
 }
 
 /* djfkas */
 
 .nav {
 	position: fixed;
-	top: 40px;
-	left: 87%;
+	top: 0;
+	width: 100%;
+	text-align: left;
+	background-color: #FADBD8;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	z-index: 1;
+}
+
+.nav div {
+	width: 600px;
+	margin: 0 auto;
+	z-index: inherit;
+	text-align: right !important;
+}
+
+.nav div img {
+	width: 200px;
+	left: 0;
 }
 
 .nav span {
-	display: block;
-	font-size: 20px;
-	background-color: #FADBD8;
-	padding: 5px;
-	border-radius: 50%;
-	width: 30px;
-	height: 30px;
-	padding-left: 5px;
-	text-align: center;
-	line-height: 1.5;
-	margin-bottom: 5px;
+	display: inline-block;
+	font-size: 18px;
+	margin-right: 15px;
+	z-index: inherit;
 }
 
 .nav a {
@@ -41,14 +52,16 @@ html, body {
 svg {
 	width: 20px;
 	height: auto;
-	padding-left: 3px;
+	padding-top: 6px;
+	display: none;
 }
 
 main {
 	width: 100%; 
 	background-color: #FADBD8;
-	height: 75vh;
+	height: 500px;
 	margin-top: 0;
+	z-index: 100;
 }
 
 section.intro-type p {	
@@ -56,7 +69,7 @@ section.intro-type p {
 	margin: 0 auto;
 	font-size: 2.5em;
 	font-weight: 300;
-	padding-top: 55vh;
+	padding-top: 350px;
 }
 
 section {
