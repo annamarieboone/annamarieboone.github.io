@@ -407,6 +407,7 @@ img.mobile:nth-child(3) {
 		border-bottom: 0;
 		font-size: 3.5em;
 		margin-top: 0em;
+		width: 200px;
 	}
 
 	h5 {
@@ -425,7 +426,7 @@ img.mobile:nth-child(3) {
 
 	.intro-text {
 		width: 80%;
-		padding-top: 20vh;
+		padding-top: 15vh;
 	}
 
 	p.skills {
