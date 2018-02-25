@@ -326,8 +326,52 @@ img.mobile:nth-child(3) {
 	transition: 0.2s all;
 }
 
+#tail {
+	position: absolute;
+	float: left;
+}
 
 
+/*-----------------  PERSONAL ------------------*/
+
+#personal h2 {
+	font-weight: 400;
+	color: white;
+	text-align: center;
+	margin-bottom: 0;
+	font-family: "Roboto Mono";
+	letter-spacing: -1px;
+	font-size: 2em;
+	padding-top: 40vh;
+}
+
+#personal main h2 span {
+	border-bottom: 2px solid var(--orange);
+}
+
+@keyframes color {
+	0% {
+		color: white
+	}
+	50% {
+		color: var(--orange);
+	}
+	100% {
+		color: white;
+	}
+}
+
+#personal .color-change {
+	font-size: 2em;
+	font-weight: 700;
+	color: white;
+	animation: color 1.4s infinite;
+	cursor: cell;
+}
+
+#personal h3.color-change {
+	margin-top: 1.5em;
+}
 
 
 /*-----------------  MOBILE ------------------*/
