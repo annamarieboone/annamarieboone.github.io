@@ -389,6 +389,10 @@ img.mobile:nth-child(3) {
 		margin-bottom: 4em;
 	}
 
+	main.intro {
+		height: 120vh;
+	}
+
 	h2 {
 		font-size: 2em;
 		text-align: center;
