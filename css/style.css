@@ -134,6 +134,10 @@ h1 {
     h1 span:hover {
       cursor: pointer; }
 
+a {
+  text-decoration: none !important;
+  color: inherit !important; }
+
 h2.sub {
   font-size: 40px;
   max-width: 650px;
@@ -184,7 +188,6 @@ h2 {
   margin-bottom: 20px; }
   h2 span {
     box-shadow: inset 0px -6.6px 0px 0px #D2B4DE;
-    /*transition: 0.5s all;*/
     animation: 100s shadowChange infinite; }
     h2 span:hover {
       transition: 0.5s all; }
@@ -194,7 +197,8 @@ p {
   font-weight: normal;
   margin-bottom: 10px;
   font-size: 18px;
-  letter-spacing: -0.4px; }
+  letter-spacing: -0px;
+  line-height: 1.1; }
   p.skills {
     opacity: 0.6;
     margin-top: 20px;
@@ -231,7 +235,7 @@ div.clips {
     border: 1px solid #D2B4DE;
     animation: 100s solidBorderChange infinite;
     margin-bottom: 5%;
-    width: 30%;
+    width: 25%;
     align-self: top;
     padding: 40px; }
     @media only screen and (max-width: 1200px) {
@@ -346,9 +350,6 @@ div.site-container {
     margin-left: 0px;
     width: 100%;
     line-height: 1.1; }
-    h1 span {
-      border-bottom: 0px;
-      animation: none; }
   h2.sub {
     font-size: 24px;
     max-width: 650px;
