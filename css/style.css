@@ -241,7 +241,7 @@ div.clips {
     padding: 40px; }
     @media only screen and (min-width: 901px) and (max-width: 1200px) {
       div.clips section.work {
-        width: 45%; } }
+        width: 39%; } }
   div.clips .text, div.clips .photos {
     display: inline-block;
     vertical-align: top; }
