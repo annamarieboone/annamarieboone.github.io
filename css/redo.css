@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,900;1,200;1,300;1,900&display=swap');
+
+body {
+	background-color: #E8F8F5;
+	color: #148F77;
+}
+
+nav {
+	color: #148F77;
+	width: 100%;
+	height: 90px;
+	/*border-bottom: 1px solid #17A589;*/
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+}
+
+nav h5.name {
+	font-family: 'Bitter';
+	font-weight: 300;
+	font-style: italic;
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 10px;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+	display: none;
+}
+
+div.social {
+	width: auto;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	right: 30px;
+}
+
+div.social h4 {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	color: #148F77;
+	border: 1px solid #17A589;
+	font-size: 20px;
+	text-align: center;
+	line-height: 1.8;
+	margin-left: 5px;
+	background: #E8F8F5;
+	transition: 1s all;
+}
+
+div.social h4:hover {
+	color: #E8F8F5;
+	background: #148F77;
+	transition: 1s all;
+}
+
+div.social h4 a {
+	color: #148F77;
+	transition: 1s all;
+}
+
+div.social h4:hover a {
+	color: #E8F8F5;
+	transition: 1s all;
+}
+
+div.hero {
+	font-family: 'Bitter';
+	font-weight: 100;
+	max-width: 850px;
+	width: 85%;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	margin-bottom: 20vh;
+	border-bottom: 1px solid #17A589;
+}
+
+div.hero h2 {
+	font-family: 'Bitter';
+	font-weight: 300;
+	margin: 0 auto;
+	line-height: 1.4;
+	margin-bottom: 30px;
+}
+
+div.hero h1 {
+	padding-top: 35vh;
+	font-family: 'Bitter';
+	font-weight: 300;
+	font-style: italic;
+	/*font-weight: light;*/
+	margin: 0 auto;
+	font-size: 90px;
+	line-height: 0.8;
+	margin-bottom: 50px;
+}
+
+div.hero h1 span {
+	/*box-shadow: inset 0em -35px #D1F2EB;*/
+}
+
+span.highlighted {
+	box-shadow: inset 0em -25px #148F77;
+	color: #E8F8F5;
+	/*font-weight: 900;*/
+}
+
+div.work-wrapper {
+	max-width: 850px;
+	width: 85%;
+	margin: 0 auto;
+}
+
+div.work {
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	border-bottom: 1px solid #76D7C4;
+	max-width: 850px;
+	/*padding-top: 50px;*/
+	@media only screen and (max-width: 900px) {
+		grid-template-columns: 30% 70%;
+	}
+}
+
+div.featured {
+	width: 115%;
+	margin-left: -15%;
+	background: #148F77;
+	color: #E8F8F5 !important;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	padding-left: 15%;
+	padding-right: 0%;
+}
+
+div.featured .work {
+	margin-left: 0;
+	border-bottom: 0;
+}
+
+div.featured .work div.headlines h2 {
+	font-family: 'Bitter';
+	font-weight: 900;
+	font-size: 35px;
+	margin: 0;
+	max-width: 680px;
+}
+
+div.headlines h2 {
+	font-family: 'Bitter';
+	font-weight: 300;
+	font-size: 35px;
+	margin: 0;
+	max-width: 680px;
+}
+
+div.headlines h2:nth-child(2) {
+	margin-top: 50px;
+}
+
+div.headlines p {
+	font-family: 'Bitter';
+	font-weight: 300;
+	font-size: 20px;
+	margin: 0;
+	margin-top: 30px;
+	max-width: 680px;
+}
+
+div.date h4 {
+	font-family: 'Bitter';
+	font-weight: 900;
+	letter-spacing: 1px;
+	margin: 0;
+	margin-top: 5px;
+	max-width: 170px;
+	margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+div.headlines a {
+	color: #148F77;
+	text-decoration: none;
+	box-shadow: inset 0em -8px #A3E4D7;
+	transition: 1s all;
+}
+
+div.hero h2 a {
+	color: #148F77;
+	text-decoration: none;
+	box-shadow: inset 0em -8px #A3E4D7;
+	transition: 1s all;
+}
+
+div.hero h2 a:hover {
+	color: #148F77;
+	text-decoration: none;
+	box-shadow: inset 0em -30px #A3E4D7;
+	transition: 1s all;
+}
+
+div.featured .work div.headlines a {
+	color: #D1F2EB;
+	text-decoration: none;
+	box-shadow: inset 0em -8px #1ABC9C;
+	transition: 1s all;
+}
+
+div.featured .work div.headlines a:hover {
+	text-decoration: none;
+	box-shadow: inset 0em -30px #1ABC9C;
+	transition: 1s all;
+}
+
+div.headlines a:hover {
+	color: #148F77;
+	text-decoration: none;
+	box-shadow: inset 0em -30px #A3E4D7;
+	transition: 1s all;
+}
+
+@media only screen and (max-width: 900px) {
+	div.work {
+		display: block;
+	}
+	div.featured .work {
+		padding-right: 7.5%;
+	}
+	div.date h4 {
+		margin-bottom: 15px;
+	}
+	div.headlines h2 {
+		font-size: 30px;
+	}
