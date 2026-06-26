@@ -226,6 +226,15 @@
         font-size: 0.9rem;
         letter-spacing: 0.5px;
         line-height: 1.5;
+        border:1px solid var(--light-gray);
+        transition: 1s all;
+    }
+
+    div.project-link a:hover {
+        background: var(--background);
+        color: var(--light-gray);
+        transition: 1s all;
+        cursor: pointer;
     }
 
     div.work-sample.expanded {

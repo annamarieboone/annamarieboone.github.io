@@ -60,7 +60,7 @@
         </div>
     </div>
     <div class="call-action">
-        <p>There's a decent list of projects here — click each to read more. If you prefer to skip to the bottom and see some selected awards, you can do that here too.</p>
+        <p>There's a decent list of projects here — click each to read more.</p>
     </div> 
 </div>
 

@@ -55,7 +55,7 @@
 </div>
 
 <footer>
-    <p>Built with Svelte, Github, Google Sheets + a dream. </p>
+    <p>Built with Svelte, <a href="https://github.com/annamarieboone" target="_blank" rel="noopener noreferrer">Github</a>, <a href="https://docs.google.com/spreadsheets/d/1LBjODaOicU0heSDEVyoKasBxMQq9Fei8WxFu5y-74pM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Google Sheets</a> + a dream. </p>
     <p>Last updated <span class="last-updated">June 2026.</span></p>
 </footer>
 
@@ -84,6 +84,11 @@
         margin-bottom: 1rem;
     }
 
+    footer p a {
+        color: inherit;
+        text-decoration: none;
+        border-bottom: 1px solid var(--light-gray);
+    }
 
     .filters {
         display: flex;
@@ -112,11 +117,19 @@
         text-transform: uppercase;
         font-family: "Roboto", sans-serif;
         font-weight: 700;
+        transition: 1s all; 
     }
 
     .filters button.active {
         background: var(--light-gray);
         color: var(--background);
+    }
+
+    .filters button:hover {
+        background: var(--light-gray);
+        color: var(--background);
+        cursor: pointer;
+        transition: 1s all;
     }
 
     @media only screen and (max-width: 900px) {
