@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+	/* Colors */
+    --background: #EFF6FF;
+    --light-gray: #1447E6;
+	--design-color: #ff0000;
+    --design-light: #ffcccc;
+    --development-color: #00ff00;
+    --development-light: #ccffcc;
+    --writing-color: #0000ff;
+    --writing-light: #ccccff;
+    --illustration-color: #ff00ff;
+    --illustration-light: #ffccff;
+    --reporting-color: #ffff00;
+    --reporting-light: #ffffcc;
+    --graphics-color: #00ffff;
+    --graphics-light: #ccffff;
+    
+}
+    

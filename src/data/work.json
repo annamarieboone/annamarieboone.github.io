@@ -1,0 +1,533 @@
+[
+  {
+    "Date": "6/6/2026",
+    "Publish": true,
+    "Best": false,
+    "Headline": "What was this unprecedented school year like? We asked the students.",
+    "URL": "https://www.startribune.com/preview/WL5IQETIVVGRHATLORT4GEUN5Y",
+    "Image": "students",
+    "Video": "kids_vid_1",
+    "Skills": [
+      "Design",
+      "Development",
+      "Editing"
+    ],
+    "Case_study": "This Minnesota school year began with a school shooting in Minneapolis and ended after Operation Metro Surge. Our education reporters wanted to talk to students about how this unprecedented year, allowing them to reflect and process what happened. They decided on a video-driven story form, which happened to align with development work I was doing for a yet-unpublished piece. I helped develop the story outline and created a visual identity that used a color palette inspired by number two pencils.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "4/19/2026",
+    "Publish": true,
+    "Best": false,
+    "Headline": "Our neighbor, Prince",
+    "URL": "https://www.startribune.com/we-asked-for-your-prince-stories-heres-what-you-shared/601630503?utm_source=gift",
+    "Image": "princestories",
+    "Video": "prince_vid_1",
+    "Skills": [
+      "Design",
+      "Development",
+      "Editing",
+      "Writing",
+      "Illustration"
+    ],
+    "Case_study": "As a transplant to Minneapolis, I've always been fascinated by the relationship between Prince and the city's residents. For the tenth anniversary of his death, I wanted to gather stories from readers of Prince the neighbor, not just Prince the rock star. I got to hear some incredible tales and even interview his high school music teacher. I created some lightweight, vector illustrations with SVG animations to accompany each story.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "3/12/2026",
+    "Publish": true,
+    "Best": false,
+    "Headline": "Resilience, enlightenment and bed bugs on the Camino de Santiago",
+    "URL": "https://www.startribune.com/resilience-enlightenment-and-bed-bugs-on-the-camino-de-santiago/601528801?utm_source=gift",
+    "Image": "camino",
+    "Video": "camino_vid_1",
+    "Skills": [
+      "Writing",
+      "Reporting",
+      "Design"
+    ],
+    "Case_study": "For our thirtieth birthdays, my best friend and I decided to walk 186 miles through Portugal and Spain on the Camino de Santiago. I was so excited to write a travel story for the Strib about our experience, which was somehow both magical and mundane, transformative and reaffirming. And yes, we did get bed bugs. My colleague Jake Steinberg drew a map of our route that we placed my camino passport stamps along. It quickly became my favorite piece of the story.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "3/8/2026",
+    "Publish": true,
+    "Best": true,
+    "Headline": "Exclusive! Greatest Minnesota celebrities (of all time) revealed",
+    "URL": "https://www.startribune.com/the-greatest-minnesota-celebrities-of-all-time/601512669?utm_source=gift",
+    "Image": "celebsalt",
+    "Video": "celebs_vid_1",
+    "Skills": [
+      "Design",
+      "Development",
+      "Illustration"
+    ],
+    "Case_study": "A joint project I worked on with Bryan Brussee, another designer at the Strib. Often, lists at the Star Tribune are unordered — we wanted to lean into the divisiveness by giving readers a chance to vote if they agreed with our critics selection. For the visual identity, we wanted a punchy, tabloid-style look. Lots of Teen Bop and J-14 covers in our moodboard, and I think we did them justice while using brand typography and keeping it readable.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "2/13/2026",
+    "Publish": true,
+    "Best": false,
+    "Headline": "‘The periodic table for romance’",
+    "URL": "https://www.startribune.com/can-you-tell-your-fake-dates-from-your-golden-retrievers/601562823?utm_source=gift",
+    "Image": "periodic",
+    "Video": "tropes_vid_1",
+    "Skills": [
+      "Design",
+      "Development",
+      "Illustration"
+    ],
+    "Case_study": "After a lot of heavy work, it was a treat to work on this project from with our Books  editor. I live in the neighborhood of the romance bookstore and am a patron, so it was a natural fit. Visualizing the tropes as atomic illustrations and organizing the tropes into elemental groups was a fun, conceptual challenge.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "2/7/2026",
+    "Publish": true,
+    "Best": false,
+    "Headline": "A state on edge: What the last 31 days have looked like in Minnesota",
+    "URL": "https://www.startribune.com/a-state-on-edge-what-the-last-31-days-have-looked-like-in-minnesota/601573087?utm_source=gift",
+    "Image": "stateedge",
+    "Video": "stateedge_vid_1",
+    "Skills": [
+      "Design",
+      "Development",
+      "Editing"
+    ],
+    "Case_study": "A visual retrospective of what the month of January looked like in Minnesota, highlighting our photojournalism. I used the backend system I created for our <a href=\"https://www.startribune.com/2025-the-year-in-photos/601533059\" target=\"_blank\">2025 year in photos</a> story and updated the design. I used desaturation and blur on the inactive photo to give each day its own emphasis and moment of coming into focus. I also used a heavy cut of our news font for a graphic, type-only here and as an anchor and throughline in the presentation.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "1/28/2026",
+    "Publish": true,
+    "Best": true,
+    "Headline": "A chaotic confrontation, a gun and 10 shots: The fatal shooting of Alex Pretti",
+    "URL": "https://www.startribune.com/a-chaotic-confrontation-a-gun-and-10-shots-a-frame-by-frame-analysis-of-the-fatal-shooting-of-alex-pretti/601570463?utm_source=gift",
+    "Image": "prettialt",
+    "Video": "pretti_vid_1",
+    "Skills": [
+      "Design",
+      "Development",
+      "Reporting",
+      "Writing",
+      "Graphics",
+      "Editing"
+    ],
+    "Case_study": "Less than three weeks after Renee Good's death, we were faced with another death of a civilian during Operation Metro Surge. Our visual forensics team reassembled, gathering as many videos as we could from the shooting and assembling another comprehnesive timeline. In this instance, there was a lot less movement, so we decided against mapping and instead created highlighted video frames to show how the confrontation escalated. Being a local journalist in January meant I drove to work each morning, as early as 6 a.m., and each time saw observers with whistles and orange safety vests on each corner. I was coding on deadline on my couch, hearing the whistles from down the street when ICE agents would drive through our neighborhood. I was in the story, no matter where I was.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "1/10/2026",
+    "Publish": true,
+    "Best": true,
+    "Headline": "A close examination of the shooting of Renee Good",
+    "URL": "https://www.startribune.com/breaking-down-the-videos-a-close-examination-of-the-shooting-of-renee-good/601560158",
+    "Image": "goodalt",
+    "Video": "good_vid_1",
+    "Skills": [
+      "Design",
+      "Development",
+      "Reporting",
+      "Writing"
+    ],
+    "Case_study": "Within an hour of Renee Good's death, we knew there was a need for a visual analysis. Myself, our videographer, Amanda Anderson, and a cartographer, Jake Steinberg, worked tirelessly for three days to piece together video from eyewitnesses and organize it into a cohesive timeline. We were ready to publish the day after, when minutes before our scheduled publish time Jonathon Ross's first-person video was released. We quickly pivoted, using his video in the timeline to add a greater level of detail and updating the maps and graphics based on what we learned through this angle. It was the hardest piece I have worked on for so many reasons, but I'm thankful to have worked on it.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "12/14/2025",
+    "Publish": true,
+    "Best": false,
+    "Headline": "2025: The year in photos",
+    "URL": "https://www.startribune.com/2025-the-year-in-photos/601533059",
+    "Image": "2025poy",
+    "Video": "poy_vid_1",
+    "Skills": [
+      "Design",
+      "Development",
+      "Editing"
+    ],
+    "Case_study": "We do a photos of the year project each year, and in this instance I wanted to try and do as much as I could to streamline the process for the years to come. I created a Airtable database for ease of editing for our photo and copy desks. I set up clear options in there for selecting gallerys vs. single images, adding behind-the-lens quotes from our photographers, and more. I also went through to find the original publication story with each photo throughout the year and included that link so readers could go read the full context if they wished.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "12/4/2025",
+    "Publish": true,
+    "Best": true,
+    "Headline": "Holiday cookie finder",
+    "URL": "https://startribune.com/cookies",
+    "Image": "cookiefinder",
+    "Video": "cookies_vid_1",
+    "Skills": [
+      "Design",
+      "Development",
+      "Editing"
+    ],
+    "Case_study": "I worked with newsroom developer Tom Nehil to redesign the Star Tribune's Holiday Cookie Finder, a database of over 100 different holiday cookie recipes submitted by readers since 2003. We brought in a warm and nostagic color scheme, as well as a recipe page design directly inspired by cookbooks for ease of use and familiarity. We focused on the print styles, so the recipes could be printed out to a single page and put right into a recipe box. Each year we continue to update this project as new winning cookies are released.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "9/11/2025",
+    "Publish": true,
+    "Best": false,
+    "Headline": "Your guide to Twin Cities trail running",
+    "URL": "https://www.startribune.com/rocks-roots-and-soft-dirt-lace-up-your-shoes-for-an-adventurous-run-on-these-twin-cities-area-trails/601453067",
+    "Image": "trailrunning",
+    "Video": "trailrunning_vid_1",
+    "Skills": [
+      "Design",
+      "Development",
+      "Reporting",
+      "Writing"
+    ],
+    "Case_study": "Fresh off the success of our paddling guide, we wanted to create something similar for trail running around the Twin Cities metro area. I worked with the same developer and cartographer as the paddlign guide, creating a new project that had a shared visual identity while also maintaining it's own unique presence. I also contributed to this guide, running the Winchell Trail with my dog, Derby. We did get caught in a summer rainstorm during, but would still do again in a heartbeat.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "8/22/2025",
+    "Publish": true,
+    "Best": true,
+    "Headline": "How far can you stretch $100 at the state fair?",
+    "URL": "https://www.startribune.com/how-far-can-you-stretch-100-at-the-minnesota-state-fair/601445006",
+    "Image": "under100",
+    "Video": "under100_vid_1",
+    "Skills": [
+      "Design",
+      "Development",
+      "Reporting",
+      "Writing",
+      "Editing"
+    ],
+    "Case_study": "The Great Minnesota Get-Together can also be a great strain on the wallet. I wanted to see how far you could make it on only $100. Armed with an iPhone and a dream, I braved the first day, snapping pics up and down every street to collect prices for food, drinks and activities. Back home with only a slight sunburn, I entered all my data and used those numbers to create a fancy calculator that allowed readers to budget out their fair visit ahead of time. I also built in a shareable reciept at the end so users can show off their perfect fair day. This published the morning of the second day of the fair to give readers as much time as possible with the updated prices for the year.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "7/18/2025",
+    "Publish": true,
+    "Best": false,
+    "Headline": "What's the oldest bar in Minnesota?",
+    "URL": "https://www.startribune.com/oldest-bar-in-minnesota-neumanns-spot-bar-cuzzys/601413555",
+    "Image": "oldbars",
+    "Video": "",
+    "Skills": [
+      "Writing",
+      "Reporting"
+    ],
+    "Case_study": "A story I wrote for Curious Minnesota, our Strib series where we answer reader-submitted questions. As a big fan of good old dive bars, this one was right up my alley. We focused on the longest continually-operating dive bar, and focused on three places in the Twin Cities area. I got to visit each, including one that operated through Prohibition by operating  a speakeasy in the upstairs, complete with a hidden peephole behind a framed photo.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "5/19/2025",
+    "Publish": true,
+    "Best": false,
+    "Headline": "An oral history of the six days after George Floyd's murder in Minneapolis",
+    "URL": "https://www.startribune.com/george-floyd-protests-minneapolis-oral-history/601354593",
+    "Image": "floydoral",
+    "Video": "floydoral_vid_1",
+    "Skills": [
+      "Design",
+      "Development"
+    ],
+    "Case_study": "An oral history of the six years after George Floyd's murder, published for the five-year anniversary. I worked with photo and video editors, along with a co-developer, to create a seamless narrative that features video interviews, archival photography and portraiture.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "5/14/2025",
+    "Publish": true,
+    "Best": true,
+    "Headline": "Paddling the Twin Cities",
+    "URL": "https://www.startribune.com/canoe-kayak-paddleboard-minnesota-twin-cities-metro-paddling-guide/601346521",
+    "Image": "paddlingguide",
+    "Video": "paddling_vid_1",
+    "Skills": [
+      "Design",
+      "Development"
+    ],
+    "Case_study": "Canoe, kayak or paddleboard: Your ultimate guide to paddling routes in the Twin Cities metro area, whether you’re a beginner or a seasoned pro. I worked with a graphics reporter and our newsroom developer to create this interactive news app highlighting the best paddling routes around the metro. I also designed a special section for our Sunday print paper.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "4/2/2025",
+    "Publish": true,
+    "Best": false,
+    "Headline": "Grading the Twin Cities' 52 essential music venues",
+    "URL": "https://www.startribune.com/twin-cities-music-venues/601314159",
+    "Image": "venues",
+    "Video": "venues_vid_1",
+    "Skills": [
+      "Design",
+      "Development"
+    ],
+    "Case_study": "The 53 best essential Minnesota music venues, graded by our professional critics. This story was a personal favorite —  I don't see as many shows as the pros, but I do my best! I added an interactive element for readers so they could keep track of the venues they've been to and share their results with friends and family.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "1/10/2025",
+    "Publish": true,
+    "Best": false,
+    "Headline": "Ghost of a Chance Podcast",
+    "URL": "https://www.startribune.com/ghost-of-a-chance/601197355",
+    "Image": "ghostofachance",
+    "Video": "",
+    "Skills": [
+      "Design",
+      "Development"
+    ],
+    "Case_study": "Ghost of a Chance is the Star Tribune's first foray into serialized podcasting. This project was a big undertaking, and one that stretched our capabilities as it was the first time we worked on something like this. I designed and developed the landing page, episode page guides, discussion guides, and helped art direct the logo. After the final episode, I also designed a special section for our print paper.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "10/25/2024",
+    "Publish": true,
+    "Best": false,
+    "Headline": "Minnesota’s ghost towns are a relic of grand visions gone awry",
+    "URL": "https://www.startribune.com/ghost-towns-minnesota-nininger-forestville-old-crow-wing/601169483",
+    "Image": "ghosttowns",
+    "Video": "",
+    "Skills": [
+      "Writing",
+      "Reporting"
+    ],
+    "Case_study": "A story I wrote for Curious Minnesota, our Strib series where we answer reader-submitted questions. When I saw this question in the list of story ideas,  I knew I had to take it. Reporting led me to the original ghost town the reader mentioned, Nininger, and I learned of other famous ghost towns throughout the state. History that was just a touch haunted — my favorite.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "3/22/24",
+    "Publish": false,
+    "Best": false,
+    "Headline": "Spring arts preview",
+    "URL": "https://www2.startribune.com/spring-arts-guide-2024-music-movies-theater-dance-comedy-circus-minneapolis-st-paul/600352689/",
+    "Image": "",
+    "Video": "",
+    "Skills": [
+      "Design",
+      "Development"
+    ],
+    "Case_study": "",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "1/8/2024",
+    "Publish": true,
+    "Best": false,
+    "Headline": "From one to all",
+    "URL": "https://www2.startribune.com/a-history-of-st-paul-women-on-the-city-council/600330010/",
+    "Image": "onetoall",
+    "Video": "",
+    "Skills": [
+      "Design",
+      "Development",
+      "Reporting",
+      "Editing",
+      "Writing",
+      "Graphics"
+    ],
+    "Case_study": "To commemorate the first all-female St. Paul city council, myself, Katie Gallieto and Jake Steinberg put together a timeline showing how we got here — starting with the first councilwoman ever elected. The records were not digitized, so we spent hours in the St. Paul library, reading council meeting notes from the early 1990s and assembling a timeline of how the council changed after Elizabeth Decourcey's election. From there, we dug into the archives to create biographies of each woman who had served.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "7/28/2023",
+    "Publish": true,
+    "Best": false,
+    "Headline": "10 years, 10 couples",
+    "URL": "https://www2.startribune.com/10-years-same-sex-marriage-minnesota/600292634/",
+    "Image": "tenyears",
+    "Video": "",
+    "Skills": [
+      "Design",
+      "Development",
+      "Editing"
+    ],
+    "Case_study": "On Aug. 1, 2013, when the state’s marriage law became gender-neutral, gay, lesbian and nonbinary couples entered into an institution they’d long been denied, claiming its rights and complications. We looked back at 10 years of same-sex marriage in Minnesota by having conversations with 10 couples, nine of whom married — and in one case, divorced — over the decade.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "6/21/2023",
+    "Publish": false,
+    "Best": false,
+    "Headline": "What surprise songs will Taylor Swift perform in Minneapolis?",
+    "URL": "https://www.startribune.com/surprise-songs-will-taylor-swift-play-in-minneapolis-we-try-to-take-an-educated-guess/600281246/",
+    "Image": "",
+    "Video": "",
+    "Skills": [
+      "Design",
+      "Development"
+    ],
+    "Case_study": "",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "5/3/2023",
+    "Publish": true,
+    "Best": false,
+    "Headline": "What happened to Heather Mayer?",
+    "URL": "https://www2.startribune.com/heather-mayer-death-bdsm-mother-find-justice-twin-cities/600273507/",
+    "Image": "heather",
+    "Video": "",
+    "Skills": [
+      "Design",
+      "Development",
+      "Editing"
+    ],
+    "Case_study": "Police ruled Heather Mayer’s death a suicide. Her mother set out to prove them wrong and uncovered an escalating tale of violence. Nearly four years later, the circumstances of Heather’s death remain a mystery. This story was reported for years before it published. As a designer we had to balance a careful line between showing the true nature of the abuse and not retraumatizing or being gratuitous. We made careful design choices to give readers control over their experience in the story.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "6/24/2022",
+    "Publish": true,
+    "Best": false,
+    "Headline": "Life before Roe v. Wade",
+    "URL": "https://www2.startribune.com/current-former-minnesotans-remember-life-before-roe-v-wade-abortion-supreme-court/600181095/?refresh=true",
+    "Image": "beforeroe",
+    "Video": "",
+    "Skills": [
+      "Design",
+      "Development",
+      "Editing"
+    ],
+    "Case_study": "Less than 50 years ago, abortion was illegal in most states. Some Minnesotans remember it well. Anticipating that Roe v. Wade would be in front of the Supreme Court again, reporters asked for stories from people who were alive before Roe. We created this sparsely-designed story, told through vingettes, to allow their memories to shine. Due to the pre-planning, this feature was able to publish with our live news coverage when Roe was reversed.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "8/7/2021",
+    "Publish": false,
+    "Best": false,
+    "Headline": "How Twin Cities housing rules keep the metro segregated",
+    "URL": "https://www2.startribune.com/how-twin-cities-housing-rules-keep-the-metro-segregated/600081529/",
+    "Image": "zoning",
+    "Video": "",
+    "Skills": [
+      "Design",
+      "Development"
+    ],
+    "Case_study": "To examine residential zoning patterns in the Twin Cities, the Star Tribune requested zoning maps from more than 100 communities and reporters reviewed zoning ordinances from each city. The results found that people of color were disproportionately living in multi-family housing due to the racist history of zoning laws.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "4/14/2021",
+    "Publish": true,
+    "Best": false,
+    "Headline": "Breaking down the video: What happened during Daunte Wright's fatal traffic stop",
+    "URL": "https://www2.startribune.com/daunte-wright-brooklyn-center-minnesota-kim-potter-police-shooting-bodycam-taser-handgun/600021041/",
+    "Image": "wright",
+    "Video": "",
+    "Skills": [
+      "Reporting",
+      "Writing",
+      "Design",
+      "Development"
+    ],
+    "Case_study": "An analysis of the body camera footage with insights from the Brooklyn Center Police policy manual and a comparison of guns and tasers. This story took four days, from initial pitch to publish.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "12/27/2020",
+    "Publish": false,
+    "Best": false,
+    "Headline": "George Floyd's search for salvation",
+    "URL": "https://www.startribune.com/george-floyd-hoped-moving-to-minnesota-would-save-him-what-he-faced-here-killed-him/573417181/",
+    "Image": "",
+    "Video": "",
+    "Skills": [
+      "Design",
+      "Development"
+    ],
+    "Case_study": "",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "8/11/2020",
+    "Publish": true,
+    "Best": false,
+    "Headline": "The siege, evacuation and destruction of a Minneapolis police station",
+    "URL": "https://www2.startribune.com/e-mails-public-records-reveal-what-happened-before-minneapolis-third-precinct-was-abandoned/566290701/",
+    "Image": "policestation",
+    "Video": "",
+    "Skills": [
+      "Design",
+      "Development",
+      "Editing",
+      "Graphics"
+    ],
+    "Case_study": "",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "6/2/2020",
+    "Publish": true,
+    "Best": true,
+    "Headline": "One Week in Minneapolis",
+    "URL": "https://www2.startribune.com/one-week-that-shook-the-world-george-floyd-s-death-ignited-protests-far-beyond-minneapolis/569930771/",
+    "Image": "oneweek",
+    "Video": "",
+    "Skills": [
+      "Design",
+      "Development",
+      "Editing",
+      "Writing"
+    ],
+    "Case_study": "I was furloughed the Thursday and Friday of Memorial Day weekend — like so many others, I spent the week refreshing Twitter, seeking constant information as the city reeled after the murder of George Floyd. I pitched this project to my bosses that Friday, and worked over the weekend to collect the best of our Star Tribune coverage and compile it into a visual timeline of the week in Minneapolis that changed the world.",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "12/27/2019",
+    "Publish": false,
+    "Best": false,
+    "Headline": "Best of the Decade",
+    "URL": "http://www.startribune.com/best-of-the-decade/566133041/",
+    "Image": "",
+    "Video": "",
+    "Skills": [
+      "Design",
+      "Development"
+    ],
+    "Case_study": "",
+    "Related_Links": "",
+    "Awards": ""
+  },
+  {
+    "Date": "7/23/2018",
+    "Publish": true,
+    "Best": false,
+    "Headline": "Denied Justice",
+    "URL": "https://startribune.com/deniedjustice",
+    "Image": "deniedjustice",
+    "Video": "",
+    "Skills": [
+      "Design",
+      "Development",
+      "Graphics"
+    ],
+    "Case_study": "Denied Justice was an investigation into the police handlings of sex assault cases in Minnesota. The Star Tribune team built their own data base by requesting records from all across the state, and came to a sobering conclusion that only 7% of reported sexual assaults ended in coviction — the majority were never even forwarded to prosecutors. This was a huge undertaking, and in the end resulted in 9 stories, a video database, a landing page, and a sister podcast produced with a local television station.",
+    "Related_Links": "",
+    "Awards": ""
+  }
+]
