@@ -201,17 +201,31 @@
     div.case-study  {
         font-family: 'Roboto', sans-serif;
         font-weight: 300;
-        line-height: 1.3;
+        line-height: 1.5;
         font-size: 1.3em;
         margin-top: 0;
         max-width: 600px;
     }
 
+    :global(div.case-study a) {
+        font-family: "Roboto Mono";
+        font-weight: 900;
+        color: var(--light-gray);
+        text-decoration: none;
+        /* font-size: 0.9em; */
+    }
+
+     :global(div.case-study a:hover) {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
     p.old-project {
-        font-size: 0.9rem;
-        border-bottom: 0.5px solid var(--light-gray);
-        padding-bottom: 0.5rem;
+        font-size: 1rem;
+        border-bottom: 1px solid var(--light-gray);
+        padding-bottom: 0.75rem;
         margin-bottom: 1rem;
+        font-style: italic;
     }
 
     div.skills-wrapper {

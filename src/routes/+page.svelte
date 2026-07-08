@@ -4,7 +4,7 @@
     import Hero from './hero.svelte';
     import Footer from './footer.svelte';
 
-    const allSkills = [...new Set(projects.flatMap(p => p.Skills))].filter(s => s !== 'Best').sort();
+    const allSkills = [...new Set(projects.flatMap(p => p.Skills))].sort();
 
     let activeFilter = $state(null);
 
@@ -20,7 +20,9 @@
         <button class:active={activeFilter === null} onclick={() => activeFilter = null}>All work</button>
         {#each allSkills as skill}
             <button class:active={activeFilter === skill} onclick={() => activeFilter = skill}>
-                {#if skill === "Reporting"}
+                {#if skill === "Best"}
+                    ⭐ Selects
+                {:else if skill === "Reporting"}
                     ✏️ {skill}
                 {:else if skill === "Design"}
                     ✨ {skill}
