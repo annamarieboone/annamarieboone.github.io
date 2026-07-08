@@ -6,7 +6,7 @@
 
     const allSkills = [...new Set(projects.flatMap(p => p.Skills))].sort();
 
-    let activeFilter = $state(null);
+    let activeFilter = $state("Best");
 
     const filteredProjects = $derived(
         projects.filter(p => p.Publish && (activeFilter === null || p.Skills.includes(activeFilter)))
