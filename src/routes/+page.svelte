@@ -3,10 +3,9 @@
     import WorkSample from './worksample.svelte';
     import Hero from './hero.svelte';
 
-    const allSkills = [...new Set(projects.flatMap(p => p.Skills))].sort();
+    const allSkills = [...new Set(projects.flatMap(p => p.Skills))].filter(s => s !== 'Best').sort();
 
     let activeFilter = $state(null);
-    let activeProject = $state(null);
 
     const filteredProjects = $derived(
         projects.filter(p => p.Publish && (activeFilter === null || p.Skills.includes(activeFilter)))
@@ -20,15 +19,13 @@
     {#each allSkills as skill}
         <button class:active={activeFilter === skill} onclick={() => activeFilter = skill}>
             {#if skill === "Reporting"}
-                🗒️ {skill}
+                ✏️ {skill}
             {:else if skill === "Design"}
                 ✨ {skill}
             {:else if skill === "Editing"}
                 ✂️ {skill}
             {:else if skill === "Development"}
                 ⌨️ {skill}
-            {:else if skill === "Writing"}
-                ✏️ {skill}
             {:else if skill === "Illustration"}
                 🎨 {skill}
             {:else if skill === "Graphics"}
@@ -48,8 +45,6 @@
             date={project.Date}
             video={project.Video}
             skills={project.Skills}
-            selected={activeProject === project.Headline}
-            onselect={() => activeProject = activeProject === project.Headline ? null : project.Headline}
         />
     {/each}
 </div>
