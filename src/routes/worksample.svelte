@@ -108,7 +108,7 @@
     }
 
     h5 {
-        font-weight: 400;
+        font-weight: 500;
         letter-spacing: 1.5px;
         word-spacing: 3px;
         margin-top: 1rem;
@@ -161,6 +161,7 @@
         width: 20%;
         border-radius: 15px;
         align-self: start;
+        border: 1px solid var(--light-gray);
     }
 
     @media only screen and (max-width: 900px) {

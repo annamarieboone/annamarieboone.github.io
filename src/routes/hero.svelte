@@ -43,15 +43,15 @@
         </div>
         <div class="hero-intro">
             <div class="text-wrapper">
-                <h3>I'm a designer at the <a href="https://www.startribune.com/" target="_blank" rel="noopener noreferrer   ">Minnesota Star Tribune,</a> where I use code and persistance to create visual stories.</h3>
-                <h3>I'm an adjunct professor at the <a href="https://www.stthomas.edu/" target="_blank" rel="noopener noreferrer">University of St. Thomas,</a> where I teach an advanced media design course for the Department of Emerging Media.</h3>
-                <h3>I'm on the computer a lot for both of those roles, so when I'm not working, I try to stay off of it. I do so by going for <a href="https://www.strava.com/athletes/5131081" target="_blank" rel="noopener noreferrer">runs with my dog</a> (who vastly outpaces me), speed-reading book club books at the end of the month and knitting sweaters.</h3>
-                <h3>My work has been honored by the Society for News Design, where I was a finalist for <a href="https://snd.org/snd-45-qa-words-best-designer-finalist-anna-boone/" target="_blank">World's Best Designer</a>, the <a href="https://www.pulitzer.org/winners/staff-star-tribune-minneapolis-minn" target="_blank">Pulitzer Prizes</a> and the <a href="https://www.headlinerawards.org/2021-online/&sa=D&source=editors&ust=1782402790033180&usg=AOvVaw1Azvq_Y32UDDMwJXtPWDir" target="_blank">National Headliner Awards.</a> I was also named <a href="https://www.startribune.com/q-a-with-star-tribune-digital-designer-anna-boone/600086806" target="_blank">Young Journalist of the Year</a> by the Minnesota chapter of the Society for Professional Journalists.</h3>
+                <h3>I work at the <a href="https://www.startribune.com/" target="_blank" rel="noopener noreferrer   ">Minnesota Star Tribune,</a> wwhere I use code and persistence to build and tell visual stories.</h3>
+                <h3>I teach at the <a href="https://www.stthomas.edu/" target="_blank" rel="noopener noreferrer">University of St. Thomas,</a> where I’m an adjunct professor in the Department of Emerging Media.</h3>
+                <h3>My work has been honored by the Society for News Design (where I was a finalist for <a href="https://snd.org/snd-45-qa-words-best-designer-finalist-anna-boone/" target="_blank">World's Best Designer</a>), the <a href="https://www.pulitzer.org/winners/staff-star-tribune-minneapolis-minn" target="_blank">Pulitzer Prizes</a> and the <a href="https://www.headlinerawards.org/2021-online/&sa=D&source=editors&ust=1782402790033180&usg=AOvVaw1Azvq_Y32UDDMwJXtPWDir" target="_blank">National Headliner Awards.</a> I was also named <a href="https://www.startribune.com/q-a-with-star-tribune-digital-designer-anna-boone/600086806" target="_blank">Young Journalist of the Year</a> by the Minnesota chapter of the Society for Professional Journalists.</h3>
+                <h3>I'm on the computer a lot for work, so when I'm not, I try to stay off of it — to varying degrees of success. I go on <a href="https://www.strava.com/athletes/5131081" target="_blank" rel="noopener noreferrer">runs with my dog</a> (who vastly outpaces me), speed-read book club books at the end of the month and knit.</h3>
             </div>
             <div class="images">
                 <div class="image">
                     <img src="https://raw.githubusercontent.com/annamarieboone/annamarieboone.github.io/master/images/webps/mn_hot.webp">
-                    <p class="caption">That's me ✌️</p>
+                    <!-- <p class="caption">That's me ✌️</p> -->
                 </div>
             </div>
         </div>
@@ -64,7 +64,8 @@
 
         div.hero {
             position: relative;
-            margin-bottom: 4rem;
+            padding-bottom: 10rem;
+            background: var(--light-gray);
         }
 
         div.images {
@@ -142,15 +143,15 @@
             word-spacing: -0.15em;
             letter-spacing: -0.01em;
             text-wrap: pretty;
+            color: white;
         }
 
         h3 a {
             font-family: "Roboto Mono";
             font-weight: 800;
-            color: inherit;
-            /* border-bottom: 1px solid var(--light-gray); */
+            color: white;
+            border-bottom: 1px solid white;
             text-decoration: none;
-            color: var(--light-gray);
         }
         p.caption {
             margin-top: 0.5em;
@@ -192,17 +193,17 @@
         }
 
         @media only screen and (max-width: 600px){
-            /* div.hero-intro {
+            div.hero-intro {
                 margin-top: 2rem;
                 flex-direction: column-reverse;
             }
 
-            div.text-wrapper {
+            /* div.text-wrapper {
                 width: 100%;
             }
             div.images {
                 width: 100%;
-            } */
+            }  */
 
             h1 {
                 font-size: 2em;
