@@ -19,7 +19,7 @@
 <a href="/work/{slug}" class="work-sample">
     {#if skills.includes("Best")}
         <div class="best badge">
-            <p class="best skill">🏆</p>
+            <p class="best skill">⭐</p>
         </div>
     {/if}
     {#if video}
@@ -39,13 +39,11 @@
         <div class="each-skill">
             {#each skills as skill}
                 {#if skill === "Reporting"}
-                    <p class="reporting skill"><span>🗒️ {skill}</span></p>
+                    <p class="reporting skill"><span>✏️ {skill}</span></p>
                 {:else if skill === "Design"}
                     <p class="design skill"><span>✨ {skill}</span></p>
                 {:else if skill === "Development"}
                     <p class="development skill"><span>⌨️ {skill}</span></p>
-                {:else if skill === "Writing"}
-                    <p class="writing skill"><span>✏️ {skill}</span></p>
                 {:else if skill === "Illustration"}
                     <p class="illustration skill"><span>🎨 {skill}</span></p>
                 {:else if skill === "Graphics"}
@@ -59,6 +57,7 @@
 </a>
 
 <style>
+
     a.work-sample {
         display: flex;
         justify-content: space-between;
@@ -74,14 +73,14 @@
     }
 
     div.best {
-        width: 60px;
-        height: 60px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         border: 1px solid var(--light-gray);
-        background: white;
+        background: var(--light-gray);
         position: absolute;
-        left: -20px;
-        top: -20px;
+        left: -25px;
+        top: -10px;
     }
 
     div.best p {
@@ -92,14 +91,14 @@
         text-align: center;
         transform: translate(-50%, -50%);
         line-height: 1.2;
-        font-size: 2rem;
+        font-size: 2.25rem;
         margin: 0;
         padding: 0;
     }
 
     a.work-sample:hover h2 {
         text-decoration: underline;
-        text-underline-offset: 4px;
+        text-underline-offset: 2px;
     }
 
     div.skills-wrapper {
@@ -127,6 +126,7 @@
         margin-bottom: 0.5rem;
         word-spacing: -5px;
         text-transform: lowercase;
+        color: var(--light-gray);
     }
 
     p.skill {

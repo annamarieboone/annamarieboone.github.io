@@ -2,6 +2,7 @@
     import projects from '../data/work.json';
     import WorkSample from './worksample.svelte';
     import Hero from './hero.svelte';
+    import Footer from './footer.svelte';
 
     const allSkills = [...new Set(projects.flatMap(p => p.Skills))].filter(s => s !== 'Best').sort();
 
@@ -14,25 +15,27 @@
 
 <Hero />
 
-<div class="filters">
-    <button class:active={activeFilter === null} onclick={() => activeFilter = null}>All</button>
-    {#each allSkills as skill}
-        <button class:active={activeFilter === skill} onclick={() => activeFilter = skill}>
-            {#if skill === "Reporting"}
-                ✏️ {skill}
-            {:else if skill === "Design"}
-                ✨ {skill}
-            {:else if skill === "Editing"}
-                ✂️ {skill}
-            {:else if skill === "Development"}
-                ⌨️ {skill}
-            {:else if skill === "Illustration"}
-                🎨 {skill}
-            {:else if skill === "Graphics"}
-                📊 {skill}
-            {/if}
-        </button>
-    {/each}
+<div class="filters" id="work-samples">
+    <div class="filter-wrapper">
+        <button class:active={activeFilter === null} onclick={() => activeFilter = null}>All work</button>
+        {#each allSkills as skill}
+            <button class:active={activeFilter === skill} onclick={() => activeFilter = skill}>
+                {#if skill === "Reporting"}
+                    ✏️ {skill}
+                {:else if skill === "Design"}
+                    ✨ {skill}
+                {:else if skill === "Editing"}
+                    ✂️ {skill}
+                {:else if skill === "Development"}
+                    ⌨️ {skill}
+                {:else if skill === "Illustration"}
+                    🎨 {skill}
+                {:else if skill === "Graphics"}
+                    📊 {skill}
+                {/if}
+            </button>
+        {/each}
+    </div>
 </div>
 
 <div class="work-samples">
@@ -49,15 +52,12 @@
     {/each}
 </div>
 
-<footer>
-    <p>Built with Svelte, <a href="https://github.com/annamarieboone" target="_blank" rel="noopener noreferrer">Github</a>, <a href="https://docs.google.com/spreadsheets/d/1LBjODaOicU0heSDEVyoKasBxMQq9Fei8WxFu5y-74pM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Google Sheets</a> + a dream. </p>
-    <p>Last updated <span class="last-updated">June 2026.</span></p>
-</footer>
+<Footer />
 
 <style>
-    div.work-samples, footer {
+    div.work-samples {
         /* display: flex; */
-        width: 80%;
+        width: 85%;
         max-width: 1000px;
         margin: 0 auto;
         /* gap: 2rem; */
@@ -66,38 +66,41 @@
         margin-top: 2rem;
     }
 
-    footer {
-        display: flex;
-        justify-content: space-between;
+    div.work-samples :global(a.work-sample:last-of-type) {
+        border-bottom: none;
     }
 
-    footer p {
-        font-family: "Roboto Mono", sans-serif;
-        color: var(--light-gray);
-        font-size: 0.8rem;
-        margin-top: 3rem;
-        margin-bottom: 1rem;
+    /* div.work-samples :global(a.work-sample) {
+        transition: 0.6s opacity;
     }
 
-    footer p a {
-        color: inherit;
-        text-decoration: none;
-        border-bottom: 1px solid var(--light-gray);
-    }
+    div.work-samples:has(:global(a.work-sample:hover)) :global(a.work-sample:not(:hover)) {
+        opacity: 0.25;
+    } */
 
-    .filters {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 4px;
-        padding: 16px 0;
-        width: 80%;
-        max-width: 1000px;
-        margin: 0 auto;
+    div.filters {
+        margin-top: 2rem;
         background: var(--background);
         position: sticky;
         top: 0;
         z-index: 1000;
         border-bottom: 1px solid var(--light-gray);
+        width: 100%;
+        margin-bottom: 4rem;
+        /* padding-top: 1rem; */
+        /* padding-bottom: 1rem; */
+        
+    }
+
+    .filter-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4px;
+        padding: 16px 0;
+        width: 85%;
+        max-width: 1000px;
+        margin: 0 auto;
+        
     }
 
     .filters button {
@@ -127,32 +130,21 @@
         transition: 1s all;
     }
 
-    @media only screen and (max-width: 900px) {
-        div.work-samples, footer {
-            width: 85%;
-            /* max-width: 600px; */
-        }
-        div.filters {
-            width: 85%;
-        }
-    }
-
     @media only screen and (max-width: 600px){
-        div.filters {
+        div.filter-wrapper {
             flex-wrap: nowrap;
             overflow-x: auto;
             width: 100%;
-            /* margin-left: -7.5%; */
             padding-left: 8px;
             box-sizing: border-box;
             scrollbar-width: none;
         }
 
-        .filters::-webkit-scrollbar {
+        .filter-wrapper::-webkit-scrollbar {
             display: none;
         }
 
-        .filters button {
+        .filter-wrapper button {
             flex-shrink: 0;
             font-size: 0.7rem;
         }

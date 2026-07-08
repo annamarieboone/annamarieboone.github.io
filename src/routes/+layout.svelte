@@ -17,7 +17,7 @@
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
-		background: var(--background);
+		/* background: var(--background); */
 		font-family: 'Roboto', sans-serif;
 		color: #1C398E;
 	}
