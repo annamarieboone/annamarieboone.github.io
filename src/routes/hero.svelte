@@ -50,7 +50,7 @@
         </div>
         <div class="images">
             <div class="image">
-                <img src="https://raw.githubusercontent.com/annamarieboone/annamarieboone.github.io/master/images/webps/mn_hot.webp">
+                <img src="/images/webps/mn_hot.webp">
                 <!-- <p class="caption">That's me ✌️</p> -->
             </div>
         </div>

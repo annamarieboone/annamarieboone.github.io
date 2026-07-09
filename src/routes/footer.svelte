@@ -1,5 +1,5 @@
 <footer>
-    <p>Built with Svelte, <a href="https://github.com/annamarieboone" target="_blank" rel="noopener noreferrer">Github</a>, <a href="https://docs.google.com/spreadsheets/d/1LBjODaOicU0heSDEVyoKasBxMQq9Fei8WxFu5y-74pM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Google Sheets</a> + a dream. </p>
+    <p>Built with Svelte, Github, <a href="https://docs.google.com/spreadsheets/d/1LBjODaOicU0heSDEVyoKasBxMQq9Fei8WxFu5y-74pM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Google Sheets</a> + a dream. </p>
     <p>Last updated <span class="last-updated">July 2026.</span></p>
 </footer>
 

@@ -36,13 +36,13 @@
 
     {#if project.Video}
         <video loop playsinline autoplay muted class="motion-video">
-            <source src="https://raw.githubusercontent.com/annamarieboone/annamarieboone.github.io/master/images/mp4/{project.Video}.mp4" type="video/mp4" />
+            <source src="/images/mp4/{project.Video}.mp4" type="video/mp4" />
         </video>
         {#if project.Image}
-            <img class="motion-fallback" src="https://raw.githubusercontent.com/annamarieboone/annamarieboone.github.io/master/images/webps/{project.Image}.webp" alt={project.Headline} />
+            <img class="motion-fallback" src="/images/webps/{project.Image}.webp" alt={project.Headline} />
         {/if}
     {:else if project.Image}
-        <img src="https://raw.githubusercontent.com/annamarieboone/annamarieboone.github.io/master/images/webps/{project.Image}.webp" alt={project.Headline} />
+        <img src="/images/webps/{project.Image}.webp" alt={project.Headline} />
     {/if}
     <div class="content">
         <div class="body">
@@ -124,8 +124,8 @@
 
     :global(.work-detail img) {
         width: 100%;
-        margin-top: 2em;
-        margin-bottom: 2em;
+        margin-top: 1em;
+        margin-bottom: 1em;
     }
     div.work-detail {
         width: 85%;
